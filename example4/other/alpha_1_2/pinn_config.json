@@ -1,0 +1,28 @@
+{
+  "alpha": 1.2,
+  "c": 1.0,
+  "width": 64,
+  "depth": 4,
+  "kscale": 2.0,
+  "kmax": 8.0,
+  "adam_epochs": 2500,
+  "lbfgs_steps": 500,
+  "points": 4096,
+  "seed": 20260916,
+  "dtype": "float64",
+  "device": "cuda",
+  "inputs": [
+    "kx",
+    "ky",
+    "t"
+  ],
+  "outputs": [
+    "real_amplitude_correction",
+    "imag_amplitude_correction"
+  ],
+  "hard_ic": "u0_hat * (1 + t*a_theta + i*t*b_theta)",
+  "sampler": "1/4 uniform + 3/4 known initial power; importance corrected",
+  "exact_evolution_used_in_training": false,
+  "symmetry_reduction": false,
+  "symmetry_averaging": false
+}

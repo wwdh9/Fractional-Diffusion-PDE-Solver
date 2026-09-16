@@ -1,0 +1,8 @@
+{
+  "seconds": 377.1115921000019,
+  "validation_normalized_mse": 3.8986626123005407e-07,
+  "steps": 0,
+  "lbfgs_closure_calls": 1325,
+  "time_argument_batch_invariance": 1.1920928955078125e-07,
+  "training_uses_reference": false
+}

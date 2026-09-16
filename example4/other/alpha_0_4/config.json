@@ -1,0 +1,22 @@
+{
+  "alpha": 0.4,
+  "c": 1.0,
+  "kmax": 8.0,
+  "xmax": 5.0,
+  "nx": 64,
+  "m": 80,
+  "quadrature_order": 128,
+  "reference_order": 192,
+  "prediction_order": 96,
+  "dtmax": 0.00078125,
+  "center": [
+    0.0,
+    0.0
+  ],
+  "widths": [
+    1.0,
+    1.0
+  ],
+  "symmetry_projection": false,
+  "radial_reduction": false
+}

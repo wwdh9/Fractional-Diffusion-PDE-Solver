@@ -1,0 +1,23 @@
+{
+  "EXAMPLE_ID": 2,
+  "ALPHA": 1.6,
+  "C": 1.0,
+  "X_LEFT": 0.0,
+  "X_RIGHT": 1.0,
+  "N_K": 80,
+  "K_MAX": 8.0,
+  "S": 200,
+  "M": 80,
+  "EPOCH_PINN": 3000,
+  "EPOCH_FNO": 3000,
+  "LR_PINN": 0.0003,
+  "LR_FNO": 0.001,
+  "B_FREQ": 512,
+  "B_IC": 512,
+  "W_FREQ_EQ": 10,
+  "W_FREQ_IC": 100,
+  "W_FNO_U2": 1.0,
+  "W_FNO_G_AUX": 0.1,
+  "W_FNO_IC": 0.1,
+  "W_FNO_BC": 0.1
+}

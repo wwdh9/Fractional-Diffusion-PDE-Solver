@@ -1,0 +1,7 @@
+{
+  "pinn_seconds": 160.21860389999983,
+  "fno_seconds": 106.65731400000004,
+  "training_seconds": 266.8759178999999,
+  "device": "cuda",
+  "seed": 0
+}

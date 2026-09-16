@@ -1,0 +1,19 @@
+{
+  "alpha": 1.6,
+  "training_uses_reference": false,
+  "pinn_used_by_teacher": false,
+  "quadrature": "full Cartesian tensor-product rule",
+  "quadrature_orders": [
+    128,
+    192
+  ],
+  "spatial_shape": [
+    64,
+    64
+  ],
+  "train_times": 80,
+  "validation_times": 20,
+  "rk4_step_halving_max": 6.377315565049503e-14,
+  "quadrature_refinement_max": 1.3322676816792783e-14,
+  "real_data_imaginary_roundoff_max": 2.2857907499765095e-16
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "case": 1,
+    "alpha": 1.0,
+    "independent_kernel_max_difference": 9.028991746970472e-15
+  },
+  {
+    "case": 1,
+    "alpha": 2.0,
+    "independent_kernel_max_difference": 4.249589178814683e-12
+  },
+  {
+    "case": 2,
+    "alpha": 1.0,
+    "independent_kernel_max_difference": 9.414750879940814e-15
+  },
+  {
+    "case": 2,
+    "alpha": 2.0,
+    "independent_kernel_max_difference": 1.961158731071666e-11
+  },
+  {
+    "case": 3,
+    "alpha": 1.0,
+    "independent_kernel_max_difference": 9.43689570931383e-15
+  },
+  {
+    "case": 3,
+    "alpha": 2.0,
+    "independent_kernel_max_difference": 2.8763103010476243e-13
+  }
+]

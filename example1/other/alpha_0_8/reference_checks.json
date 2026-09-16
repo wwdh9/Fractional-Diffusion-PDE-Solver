@@ -1,0 +1,8 @@
+{
+  "doubling_quadrature_max_difference": 4.953416149477974e-14,
+  "u2_target_depends_on_pinn": false,
+  "u2_initial_value": 0.0,
+  "prediction_frequency_cutoff": 8.0,
+  "prediction_frequency_nodes": 80,
+  "note": "Prediction cutoff/nodes kept unchanged; references use independent, converged quadrature."
+}

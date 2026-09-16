@@ -1,0 +1,13 @@
+{
+  "seconds": 106.17297349999717,
+  "adam_steps": 2500,
+  "lbfgs_closure_evaluations": 544,
+  "independent_pde_points": 16384,
+  "independent_weighted_pde_rms": 0.005633038978565395,
+  "independent_unweighted_amplitude_pde_rms": 5.06216667841708,
+  "complex_nonradial_initial_hard_ic_max_error": 0.0,
+  "complex_nonradial_positive_time_imag_max": 1.5235021624096918,
+  "architecture_can_differ_at_equal_radius": true,
+  "architecture_equal_radius_probe_difference": 0.011626117428288008,
+  "generalization_claim": "API/architecture checks only; not a trained cross-source FNO benchmark"
+}

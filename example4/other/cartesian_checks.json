@@ -1,0 +1,241 @@
+{
+  "nonradial": {
+    "diagnostic": "shifted anisotropic Gaussian heat equation; generic complex polynomial forcing",
+    "shift": [
+      0.6,
+      -0.4
+    ],
+    "unequal_widths": [
+      0.8,
+      1.3
+    ],
+    "nonradial_gaussian_inverse_max_error": 2.6645352591003757e-15,
+    "real_field_imaginary_roundoff_max": 9.491428109030242e-17,
+    "complex_nongaussian_rk4_max_error": 1.5142059301141984e-15,
+    "symmetry_projection_used": false
+  },
+  "alphas": [
+    {
+      "alpha": 0.4,
+      "quadrature_orders_per_axis": [
+        64,
+        96,
+        128
+      ],
+      "axis_quadrature_mapping_power": 3,
+      "check_times": [
+        0.0,
+        0.0125,
+        0.123,
+        0.5,
+        1.0
+      ],
+      "check_grid_shape": [
+        64,
+        64
+      ],
+      "quadrature_successive_max_differences": [
+        1.7063197650483974e-07,
+        3.0664361090377367e-13
+      ],
+      "rk4_step_halving_max_difference": 2.664559877499746e-15,
+      "rk4_dtmax": 0.00078125,
+      "reference_solution_used_in_teacher": false,
+      "teacher_initial_value_max_abs": 0.0,
+      "method": "full complex Cartesian tensor quadrature and zero-IC source-driven RK4"
+    },
+    {
+      "alpha": 0.8,
+      "quadrature_orders_per_axis": [
+        64,
+        96,
+        128
+      ],
+      "axis_quadrature_mapping_power": 3,
+      "check_times": [
+        0.0,
+        0.0125,
+        0.123,
+        0.5,
+        1.0
+      ],
+      "check_grid_shape": [
+        64,
+        64
+      ],
+      "quadrature_successive_max_differences": [
+        1.9360016452300843e-07,
+        3.330669074101495e-14
+      ],
+      "rk4_step_halving_max_difference": 4.440892291804277e-15,
+      "rk4_dtmax": 0.00078125,
+      "reference_solution_used_in_teacher": false,
+      "teacher_initial_value_max_abs": 0.0,
+      "method": "full complex Cartesian tensor quadrature and zero-IC source-driven RK4"
+    },
+    {
+      "alpha": 1.2,
+      "quadrature_orders_per_axis": [
+        64,
+        96,
+        128
+      ],
+      "axis_quadrature_mapping_power": 3,
+      "check_times": [
+        0.0,
+        0.0125,
+        0.123,
+        0.5,
+        1.0
+      ],
+      "check_grid_shape": [
+        64,
+        64
+      ],
+      "quadrature_successive_max_differences": [
+        2.3258306721014865e-07,
+        7.0742025098582015e-15
+      ],
+      "rk4_step_halving_max_difference": 1.4432899814079094e-14,
+      "rk4_dtmax": 0.00078125,
+      "reference_solution_used_in_teacher": false,
+      "teacher_initial_value_max_abs": 0.0,
+      "method": "full complex Cartesian tensor quadrature and zero-IC source-driven RK4"
+    },
+    {
+      "alpha": 1.6,
+      "quadrature_orders_per_axis": [
+        64,
+        96,
+        128
+      ],
+      "axis_quadrature_mapping_power": 3,
+      "check_times": [
+        0.0,
+        0.0125,
+        0.123,
+        0.5,
+        1.0
+      ],
+      "check_grid_shape": [
+        64,
+        64
+      ],
+      "quadrature_successive_max_differences": [
+        2.4469296980387384e-07,
+        7.0288828879302856e-15
+      ],
+      "rk4_step_halving_max_difference": 6.361577932131132e-14,
+      "rk4_dtmax": 0.00078125,
+      "reference_solution_used_in_teacher": false,
+      "teacher_initial_value_max_abs": 0.0,
+      "method": "full complex Cartesian tensor quadrature and zero-IC source-driven RK4"
+    },
+    {
+      "alpha": 2.0,
+      "quadrature_orders_per_axis": [
+        64,
+        96,
+        128
+      ],
+      "axis_quadrature_mapping_power": 3,
+      "check_times": [
+        0.0,
+        0.0125,
+        0.123,
+        0.5,
+        1.0
+      ],
+      "check_grid_shape": [
+        64,
+        64
+      ],
+      "quadrature_successive_max_differences": [
+        3.354389626888596e-07,
+        2.6861846083558234e-13
+      ],
+      "rk4_step_halving_max_difference": 3.530509218309203e-13,
+      "rk4_dtmax": 0.00078125,
+      "reference_solution_used_in_teacher": false,
+      "teacher_initial_value_max_abs": 0.0,
+      "method": "full complex Cartesian tensor quadrature and zero-IC source-driven RK4"
+    }
+  ],
+  "reference_checks": [
+    {
+      "alpha": 0.4,
+      "quadrature_orders_per_axis": [
+        128,
+        192,
+        256
+      ],
+      "quadrature_successive_max_differences": [
+        8.215651232612112e-15,
+        4.8072658427027156e-14
+      ],
+      "initial_gaussian_inverse_max_error": 4.540812223734111e-14,
+      "imaginary_max_abs": 4.996003610813204e-16,
+      "used_for": "evaluation reference only"
+    },
+    {
+      "alpha": 0.8,
+      "quadrature_orders_per_axis": [
+        128,
+        192,
+        256
+      ],
+      "quadrature_successive_max_differences": [
+        8.326687919579065e-15,
+        4.8072658427027156e-14
+      ],
+      "initial_gaussian_inverse_max_error": 4.540812223734111e-14,
+      "imaginary_max_abs": 3.885780586188048e-16,
+      "used_for": "evaluation reference only"
+    },
+    {
+      "alpha": 1.2,
+      "quadrature_orders_per_axis": [
+        128,
+        192,
+        256
+      ],
+      "quadrature_successive_max_differences": [
+        8.43769529276349e-15,
+        4.8072658427027156e-14
+      ],
+      "initial_gaussian_inverse_max_error": 4.540812223734111e-14,
+      "imaginary_max_abs": 5.551115123125783e-16,
+      "used_for": "evaluation reference only"
+    },
+    {
+      "alpha": 1.6,
+      "quadrature_orders_per_axis": [
+        128,
+        192,
+        256
+      ],
+      "quadrature_successive_max_differences": [
+        8.215651232612112e-15,
+        4.8072658427027156e-14
+      ],
+      "initial_gaussian_inverse_max_error": 4.540812223734111e-14,
+      "imaginary_max_abs": 3.885780586188048e-16,
+      "used_for": "evaluation reference only"
+    },
+    {
+      "alpha": 2.0,
+      "quadrature_orders_per_axis": [
+        128,
+        192,
+        256
+      ],
+      "quadrature_successive_max_differences": [
+        8.215651232612112e-15,
+        4.8072658427027156e-14
+      ],
+      "initial_gaussian_inverse_max_error": 4.540812223734111e-14,
+      "imaginary_max_abs": 4.440892098500626e-16,
+      "used_for": "evaluation reference only"
+    }
+  ]
+}
